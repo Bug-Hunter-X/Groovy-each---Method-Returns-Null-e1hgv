@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Groovy when using the `each` method. The `each` method iterates over a collection, but it does not return a new list with transformed values. This often leads to unexpected `null` results.
+
+The `bug.groovy` file shows the erroneous code, while `bugSolution.groovy` provides a corrected version using `collect` to return a new list with the desired transformations.
